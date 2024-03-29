@@ -14,12 +14,12 @@ void solve() {
     
     vector<ll> a;
     for (int i = 0; i < n; i++) {
-        if (i == 0 || b[i] == b[i - 1]) { // If it's the first element or equal to the previous one
+        if (i == 0 || b[i] == b[i - 1]) { 
             a.push_back(b[i]);
-        } else if (b[i] < b[i - 1]) { // If it's less than the previous one
+        } else if (b[i] < b[i - 1]) { 
             a.push_back(b[i]);
             a.push_back(b[i]);
-        } else { // If it's greater than the previous one
+        } else { 
             a.push_back(b[i]);
         }
     }
