@@ -17,5 +17,6 @@ void solve(){
     cout << res << endl;
 }
 int main()
-{solve();
+{
+    solve();
 }
