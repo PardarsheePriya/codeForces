@@ -46,6 +46,19 @@ using namespace std;
 // }
 
 // Optimized solution
+void solve(){
+    ll n, k, x;
+    cin >> n >> k >> x;
+    ll low = (k*(k+1))/2;
+    ll high = (n*(n+1))/2 - ((n-k)*(n-k+1))/2;
+    
+    if(x>= low && x <= high){
+        cout<<"Yes"<<endl;
+    }else{
+    	cout<<"No"<<endl;
+    }
+    
+}
 
 void solve(){
 
